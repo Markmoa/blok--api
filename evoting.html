@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#candidates">Candidates</a></li>
+            <li><a href="#vote">Vote</a></li>
+            <li><a href="#results">Results</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="home">
+        <h1>Welcome to the E-Voting System</h1>
+        <p>This is a blockchain-based e-voting system that ensures the integrity and transparency of the voting process.</p>
+    </section>
+    <section id="about">
+        <h1>About the System</h1>
+        <p>This system uses blockchain technology to create a secure and transparent voting process. Each vote is recorded on the blockchain, ensuring that it cannot be altered or deleted.</p>
+    </section>
+    <section id="candidates">
+        <h1>Candidates</h1>
+        <ul>
+            <li>
+                <img src="candidate1.jpg" alt="Candidate 1">
+                <h2>Candidate 1</h2>
+                <p>Lorem ipsum dolor  1 .</p>
+            </li>
+            <li>
+                <img src="candidate2.jpg" alt="Candidate 2">
+                <h2>Candidate 2</h2>
+                <p>Lorem ipsum dolor  2 </p>
+            </li>
+            <li>
+                <img alt="Candidate 3" src="candidate3.jpg">
+                <h2>Candidate 3</h2>
+                <p>Lorem ipsum dolor  3</p>
+            </li>
+        </ul>
+    </section>
+    <section id="vote">
+        <h1>Cast Your Vote</h1>
+        <form>
+            <label for="candidate">Select a Candidate:</label>
+            <select id="candidate" name="candidate">
+                <option value="candidate1">Candidate 1</option>
+                <option value="candidate2">Candidate 2</option>
+                <option value="candidate3">Candidate 3</option>
+            </select>
+            <button type="submit">Vote</button>
+        </form>
+    </section>
+    <section id="results">
+        <h1>Results</h1>
+        <ul>
+            <li>
+                <h2>Candidate 1</h2>
+                <p> Votes: <span id="candidate1-votes">0</span></p>
+            </li>
+            <li>
+                <h2>Candidate 2</h2>
+                <p> Votes: <span id="candidate2-votes">0</span></p>
+            </li>
+            <li>
+                <h2>Candidate 3</h2>
+                <p> Votes: <span id="candidate3-votes">0</span></p>
+            </li>
+        </ul>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2023 E-Voting System</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
